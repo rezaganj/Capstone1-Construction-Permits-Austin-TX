@@ -14,14 +14,20 @@ Our analysis includes the topics below:
 - Like to Dislike Ratio per Country
 - Top Tags and Channels in the United States
 
-![YouTube_logo](https://github.com/Shaheer1400/pandas-eda-case-study/blob/master/images/YouTube_logo.png?raw=true)
+![Austin News](https://github.com/rezaganj/Capstone_1_ConstructionPermits/blob/main/figures/news.png)
 \
 \
 \
 \
 <br>
-## Average View Count per Country
-![Graph1](https://github.com/Shaheer1400/pandas-eda-case-study/blob/master/images/graph1.png?raw=true)
+## Basic Statistics
+![Permit Types](https://github.com/rezaganj/Capstone_1_ConstructionPermits/blob/main/figures/permit_types.png)
+
+![Permit Class](https://github.com/rezaganj/Capstone_1_ConstructionPermits/blob/main/figures/permit_class.png)
+
+![Permit Work Class](https://github.com/rezaganj/Capstone_1_ConstructionPermits/blob/main/figures/permit_work_class.png)
+
+![Permit Approval Time](https://github.com/rezaganj/Capstone_1_ConstructionPermits/blob/main/figures/permit_approval_time.png)
 
 Questions:
 - Why is Great Britain's average view count almost three times that of the United States?
