@@ -8,11 +8,8 @@ The hot market trend was prevalent before the pandemic but has become skyrocketi
 Data from the National Association of Home Builders shows Austin issued 21,653 permits for single-family homes in 2020. That puts the Capital City at No. 5 among U.S. metro areas for single-family construction permits handed out last year.
 However, the builders and contractors are having trouble keeping up with the phenomenal demand. There is a significant shortage in the number of new houses. At same time, the cost of hiring contractors and 
 
-Our analysis includes the topics below:
-- Average View Count per Country
-- Average Views Based on Video Categories for France, United States, Japan, India and Russia
-- Like to Dislike Ratio per Country
-- Top Tags and Channels in the United States
+This study includes the topics below:
+- Seasonality
 
 ![Austin News](https://github.com/rezaganj/Capstone_1_ConstructionPermits/blob/main/figures/news.png)
 \
@@ -36,39 +33,46 @@ Questions:
 
 ---
   
-## Average Views Based on Video Categories for France, United States, Japan, India and Russia
+## Yearly Total Permit Applications
 
-                      Video Categories for France, Japan and United States
-![FR-JP-US](https://github.com/Shaheer1400/pandas-eda-case-study/blob/master/images/FR-JP-US.png?raw=true)
+                            Correlation between permit applications and economy
+![Yearly Total Permit Count](https://github.com/rezaganj/Capstone_1_ConstructionPermits/blob/main/figures/yearly_total_permit_count.png)
 
-                      Video Categories for France, Russia and India
-![FR-RU-IN](https://github.com/Shaheer1400/pandas-eda-case-study/blob/master/images/FR-RU-IN.png?raw=true)
 
-                                                      Combined Graph
-![Final graph](https://github.com/Shaheer1400/pandas-eda-case-study/blob/master/images/Final%20graph.png?raw=true)
-
-Main Takeaways:
-- All the five countries have similar political video views percentage.
-- India is big in gaming.
-- Japan has the most views for technology videos.
 
 ---
   
-## Like to Dislike Ratio per Country
-![Graph3](https://github.com/Shaheer1400/pandas-eda-case-study/blob/master/images/graph%203.png?raw=true)
+## Trend in Monthly Permit Applications
+![Monthly Applications](https://github.com/rezaganj/Capstone_1_ConstructionPermits/blob/main/figures/monthly_applications_2010_2020.png)
 
-Questions:
-- How does this relate to what we learned based on average views per video cateogry?
+## Seasonality in Permit Applications
+![Seasonality in Applications](https://github.com/rezaganj/Capstone_1_ConstructionPermits/blob/main/figures/seasonality_in_permit_applications.png)
+
+# Example
+![Seasonality in Heater Applications](https://github.com/rezaganj/Capstone_1_ConstructionPermits/blob/main/figures/seasonality_in__heater_permit_applications.png)
+
+Hypothesis testing:
+- Null
+- Alternative
+
+## Non-Stationary Time Series
+![Non-Stationary Time Series](https://github.com/rezaganj/Capstone_1_ConstructionPermits/blob/main/figures/non_stationary.png)
+
+## Stationary Time Series
+![Stationary Time Series](https://github.com/rezaganj/Capstone_1_ConstructionPermits/blob/main/figures/stationary.png)
 
 ---
   
-## Top Tags and Channels in the United States
-![tags2](https://github.com/Shaheer1400/pandas-eda-case-study/blob/master/images/tags2.png?raw=true)
+## Future Work
 
-![channels2](https://github.com/Shaheer1400/pandas-eda-case-study/blob/master/images/channels2.png?raw=true)
+- Neighborhood
+- Arima
 
-- The top tags in the US are related to entertainment and funny videos.
-- The sports and entertainment channels get the most top trends.
+![Arima](https://github.com/rezaganj/Capstone_1_ConstructionPermits/blob/main/figures/arima_predictions.png)
+
+---
+
+![Wordcloud](https://github.com/rezaganj/Capstone_1_ConstructionPermits/blob/main/figures/wordcloud.png)
 
 ---
   
